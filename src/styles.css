@@ -31,8 +31,6 @@
     color: #D9852C;
     text-align: right;
     display: block;
-    
-
 }
 
 
@@ -65,7 +63,7 @@
     }
 
     .nav-button-sd {
-        padding-left: 220px;
+        padding-left: 250px;
         margin-top: 14px;
     }
 
@@ -74,10 +72,7 @@
         margin-right: 27px;
     }
 
-    .news-card-link{
-        margin-bottom: 0;
-        margin-top:20px;
-    }
+   
 
     
 }
@@ -133,9 +128,6 @@
         margin-bottom: 216px;
     }
 
-    .news-card-link{
-        margin-bottom: 0px;
-    }
 }
 
 .nav-bar-link {
@@ -320,6 +312,5 @@
     text-align: left;
     color: #000000;
     font-weight: 700;
-    font-size: 20px;
 }
 

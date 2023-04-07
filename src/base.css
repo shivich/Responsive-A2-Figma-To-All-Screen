@@ -65,16 +65,20 @@ h1 {
 h3 {
     font-size: 25px;
     font-weight: 700;
+    line-height: 24.2px;
 }
 
 @media screen and (min-width:576px) {
     h3 {
-
+        font-size: 15px;
+        line-height: 18.15px;
     }
 }
 
 @media screen and (min-width:769px) {
     h3 {
-        
+        font-size:25px ;
+        line-height: 30.26px;
+    }
     }
 }
