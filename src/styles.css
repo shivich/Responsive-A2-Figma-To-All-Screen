@@ -33,6 +33,10 @@
     display: block;
 }
 
+.nav-bar-para {
+    margin-bottom: 216px;
+}
+
 
 
 
@@ -70,6 +74,10 @@
     .nav-bar {
         margin-left: 32px;
         margin-right: 27px;
+    }
+
+    .nav-bar-para {
+        margin-bottom: 216px;
     }
 
    
