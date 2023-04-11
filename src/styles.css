@@ -72,14 +72,11 @@
         margin-right: 27px;
     }
 
-   
-
-    
 }
 
 /*---------For Small laptops & desktops-------*/
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:992px) {
 
     .hero-section-wrapper {
         object-fit: cover;
@@ -188,7 +185,7 @@
     }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:992px) {
     .hero-text {
 
         width: 528px;
@@ -224,7 +221,7 @@
     }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:992px) {
     .news-read {
 
         margin-left: 0;
@@ -239,6 +236,7 @@
     margin-right: auto;
     margin-bottom: 43px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
 
@@ -257,7 +255,7 @@
     }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:992px) {
     .news-card-wrapper {
         max-width: 1300px;
         flex-direction: row;
@@ -271,6 +269,9 @@
 .news-card {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 @media screen and (min-width:576px) {
@@ -279,7 +280,7 @@
     }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:992px) {
     .news-card {
         width: calc((100% - 40px - 6px)/3);
     }
@@ -298,7 +299,9 @@
 .news-card-text-section {
 
     margin: 32px 35px 32px 32px;
-    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
 }
 
 .news-card-date {
@@ -312,5 +315,9 @@
     text-align: left;
     color: #000000;
     font-weight: 700;
+}
+
+.news-card-heading{
+    flex-grow: 1;
 }
 
