@@ -230,7 +230,7 @@
 @media screen and (min-width:576px) {
     .news-read {
         /* max-width: 600px;*/
-       
+       margin-left: 72px;
         margin-right: auto;
     }
 
