@@ -158,6 +158,8 @@
 }
 
 .nav-bar-button {
+    font-family: "Inter", sans-serif;
+
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
@@ -168,31 +170,37 @@
 }
 
 .hero-text {
-    color: #FFFFFF;
+    margin-right: auto;
+    text-align: left;
+}
+
+.hero-para{color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
     line-height: 30.33px;
     padding-top: 10px;
     display: block;
-    width: 314px;
+    /*width: 314px;*/
 }
 
 @media screen and (min-width:576px) {
     .hero-text {
 
-        width: 528px;
+        margin-right: auto;
     }
 }
 
 @media screen and (min-width:992px) {
     .hero-text {
 
-        width: 528px;
+        margin-right: auto;
     }
 }
 
 
 .hero-button {
+    font-family: "Inter", sans-serif;
+
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
@@ -212,10 +220,21 @@
     text-align: left;
 }
 
+.hero-heading-large{
+   
+    margin-right: auto;
+    text-align: left;
+}
+
 @media screen and (min-width:576px) {
     .news-read {
         /* max-width: 600px;*/
-        margin-left: 72px;
+       
+        margin-right: auto;
+    }
+
+    .hero-heading-large{
+       
         margin-right: auto;
     }
 }
@@ -223,6 +242,11 @@
 @media screen and (min-width:992px) {
     .news-read {
         /*max-width: 1297px;*/
+        margin-left: 72px;
+        margin-right: auto;
+    }
+
+    .hero-heading-large{
         margin-left: 72px;
         margin-right: auto;
     }
@@ -248,6 +272,9 @@
     text-align: right;
     display: block;
     align-self: flex-end;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px ;
 
 }
 
@@ -275,6 +302,14 @@
     }
 }
 
+.news-card-date {
+    text-align: left;
+    color: #B7B7B7;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15.73px;
+}
+
 .news-card {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -296,7 +331,12 @@
         
         width: calc((100% - 40px - 6px)/3);
     }
+ 
+    .news-card-date{
+        font-size: 15px;
+        line-height: 18.15px;
 
+    }
 
 }
 
@@ -319,17 +359,11 @@
 
 }
 
-.news-card-date {
-    text-align: left;
-    color: #B7B7B7;
-    font-weight: 500;
-    font-size: 13px;
-}
+
 
 .news-card-title {
     text-align: left;
     color: #000000;
-    font-weight: 700;
 }
 
 .news-card-heading {
