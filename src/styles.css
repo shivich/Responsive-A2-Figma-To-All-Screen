@@ -174,7 +174,8 @@
     text-align: left;
 }
 
-.hero-para{color: #FFFFFF;
+.hero-para{
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
     line-height: 30.33px;
@@ -222,7 +223,7 @@
 
 .hero-heading-large{
    
-    margin-right: auto;
+    margin-right: auto; 
     text-align: left;
 }
 
@@ -247,7 +248,7 @@
     }
 
     .hero-heading-large{
-        margin-left: 72px;
+        
         margin-right: auto;
     }
 }
