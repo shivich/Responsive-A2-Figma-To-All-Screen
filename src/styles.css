@@ -248,6 +248,9 @@
     text-align: right;
     display: block;
     align-self: flex-end;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px ;
 
 }
 
