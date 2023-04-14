@@ -278,6 +278,14 @@
     }
 }
 
+.news-card-date {
+    text-align: left;
+    color: #B7B7B7;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15.73px;
+}
+
 .news-card {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -299,7 +307,12 @@
         
         width: calc((100% - 40px - 6px)/3);
     }
+ 
+    .news-card-date{
+        font-size: 15px;
+        line-height: 18.15px;
 
+    }
 
 }
 
@@ -322,12 +335,7 @@
 
 }
 
-.news-card-date {
-    text-align: left;
-    color: #B7B7B7;
-    font-weight: 500;
-    font-size: 13px;
-}
+
 
 .news-card-title {
     text-align: left;
