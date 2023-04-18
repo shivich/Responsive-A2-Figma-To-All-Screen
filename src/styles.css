@@ -38,7 +38,7 @@
 
 /*-------For Tablets----------*/
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
 
     .hero-section-wrapper {
         /* max-width: 744px;*/
@@ -75,7 +75,7 @@
 
 /*---------For Small laptops & desktops-------*/
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
 
     .hero-section-wrapper {
         object-fit: cover;
@@ -184,14 +184,14 @@
     /*width: 314px;*/
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     .hero-text {
 
         margin-right: auto;
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     .hero-text {
 
         margin-right: auto;
@@ -227,7 +227,7 @@
     text-align: left;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:774px) {
     .news-read {
         /* max-width: 600px;*/
        margin-left: 72px;
@@ -240,7 +240,7 @@
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     .news-read {
         /*max-width: 1297px;*/
         margin-left: 72px;
@@ -280,7 +280,7 @@
 }
 
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     .news-card-wrapper {
 
         flex-direction: row;
@@ -292,7 +292,7 @@
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     .news-card-wrapper {
         /* max-width: 1300px;*/
         flex-direction: row;
@@ -318,7 +318,7 @@
     flex-direction: column;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     .news-card {
 
         
@@ -327,7 +327,7 @@
 
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     .news-card {
         
         width: calc((100% - 40px - 6px)/3);

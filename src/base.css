@@ -19,7 +19,7 @@ h2 {
     text-align: left;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     h2 {
         font-size: 30px;
         line-height: 36.31px;
@@ -27,7 +27,7 @@ h2 {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     h2 {
         font-size: 40px;
         line-height: 48.41px;
@@ -46,7 +46,7 @@ h1 {
     display: block;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     h1 {
 
         /*width: 600px;*/
@@ -57,7 +57,7 @@ h1 {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     h1 {
        /* width: 748px;*/
         font-size: 80px;
@@ -70,14 +70,14 @@ h3 {
     line-height: 24.2px;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:744px) {
     h3 {
         font-size: 15px;
         line-height: 18.15px;
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1440px) {
     h3 {
         font-size: 25px;
         line-height: 30.26px;
