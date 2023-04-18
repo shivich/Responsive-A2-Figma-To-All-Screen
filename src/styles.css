@@ -186,14 +186,14 @@
 
 @media screen and (min-width:744px) {
     .hero-text {
-
+        width:528px;
         margin-right: auto;
     }
 }
 
 @media screen and (min-width:1440px) {
     .hero-text {
-
+        width:528px;
         margin-right: auto;
     }
 }
@@ -227,7 +227,7 @@
     text-align: left;
 }
 
-@media screen and (min-width:774px) {
+@media screen and (min-width:744px) {
     .news-read {
         /* max-width: 600px;*/
        margin-left: 72px;
